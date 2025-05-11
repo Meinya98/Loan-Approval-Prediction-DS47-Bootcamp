@@ -16,7 +16,7 @@ desc_temp = """ ### Loan Prediction App
                 All the data used for model training is dummy data and not real data.
 
                 #### Model
-                The model used for prediction is Logistic Regression.
+                The model used for prediction is Logistic Regression, but overfitted.
                 
                 #### Data Source
                 Kaggle: Link https://raw.githubusercontent.com/frfusch21/Data-Science-Modul/master/Datasets/LoanApprovalPrediction.csv
