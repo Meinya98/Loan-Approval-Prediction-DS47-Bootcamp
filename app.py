@@ -12,9 +12,9 @@ html_temp = """<div style="background-color:#000;padding:10px;border-radius:10px
 
 desc_temp = """ ### Loan Prediction App 
                 This app is used by Credit team for deciding Loan Application
-                *Please note that this app is for coding deployment practice only and should not be used for actual loan decisions.*
-                *All the data used for model training is dummy data and not real data.*
-                
+                Please note that this app is for coding deployment practice only and should not be used for actual loan decisions.
+                All the data used for model training is dummy data and not real data.
+
                 #### Model
                 The model used for prediction is Logistic Regression.
                 
