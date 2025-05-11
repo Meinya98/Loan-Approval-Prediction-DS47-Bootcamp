@@ -14,7 +14,7 @@ desc_temp = """ ### Loan Prediction App
                 This app is used by Credit team for deciding Loan Application
                 
                 #### Data Source
-                Kaggle: Link <Masukkan Link>
+                Kaggle: Link https://raw.githubusercontent.com/frfusch21/Data-Science-Modul/master/Datasets/LoanApprovalPrediction.csv
                 """
 
 def main():
