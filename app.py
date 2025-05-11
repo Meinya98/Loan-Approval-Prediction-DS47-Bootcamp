@@ -52,15 +52,13 @@ def run_ml_app():
     button = st.button("Predict Loan Eligibility")
     #If button is clilcked
     if button:
-        result = predict(gender, married, dependent, education, self_employed, applicant_income, coApplicant_income
-                         ,loan_amount, loan_amount_term, credit_history, property_area)
+        result = predict(gender, married, dependent, education, self_employed, applicant_income, coApplicant_income, loan_amount, loan_amount_term, credit_history, property_area)
         if result == 'Eligible':
             st.success(f"Congratulations! You are {result} for the loan.")
         else:
             st.warning(f"Sorry! You are {result} for the loan.")
 
-def predict(gender, married, dependent, education, self_employed, applicant_income, coApplicant_income
-                         ,loan_amount, loan_amount_term, credit_history, property_area):
+def predict(gender, married, dependent, education, self_employed, applicant_income, coApplicant_income, loan_amount, loan_amount_term, credit_history, property_area):
     #Processing user input
     gen = 0 if gender == 'Male' else 1
     mar = 0 if married == 'Yes' else 1
